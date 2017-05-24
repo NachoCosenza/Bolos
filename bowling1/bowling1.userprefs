@@ -1,10 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\codigo\disparo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\codigo\giroLuz.cs">
     <Files>
-      <File FileName="Assets\codigo\disparo.cs" Line="33" Column="4" />
-      <File FileName="Assets\codigo\reset.cs" Line="33" Column="19" />
-      <File FileName="Assets\codigo\pino.cs" Line="17" Column="35" />
+      <File FileName="Assets\codigo\disparo.cs" Line="37" Column="53" />
+      <File FileName="Assets\codigo\reset.cs" Line="10" Column="35" />
+      <File FileName="Assets\codigo\InterfaceReset.cs" Line="17" Column="6" />
+      <File FileName="Assets\codigo\pino.cs" Line="33" Column="10" />
+      <File FileName="Assets\codigo\giroLuz.cs" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

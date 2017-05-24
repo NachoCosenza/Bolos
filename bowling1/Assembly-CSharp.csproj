@@ -46,7 +46,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\codigo\InterfaceReset.cs" />
      <Compile Include="Assets\codigo\disparo.cs" />
+     <Compile Include="Assets\codigo\giroLuz.cs" />
      <Compile Include="Assets\codigo\pino.cs" />
      <Compile Include="Assets\codigo\reset.cs" />
  <Reference Include="UnityEngine.UI">

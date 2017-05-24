@@ -10,6 +10,8 @@ public class reset : MonoBehaviour {
 	public KeyCode retry = KeyCode.R;
 	private Quaternion QuaInucio;
 
+	public AudioClip aplausos;
+
 
 	void Start () 
 	{
@@ -31,6 +33,8 @@ public class reset : MonoBehaviour {
 			rb.position = lugarInicio;
 
 			rb.MoveRotation (QuaInucio);
+
+			AudioSource.PlayClipAtPoint (aplausos, lugarInicio);
 
 		}
 		

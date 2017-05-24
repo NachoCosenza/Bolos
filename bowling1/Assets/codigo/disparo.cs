@@ -14,11 +14,14 @@ public class disparo : MonoBehaviour {
 	public KeyCode accion;
 	private bool condicion = true;
 	public KeyCode retry = KeyCode.R;
+	private Vector3 lugarInicio;
+	public AudioClip clank;
 
 
 	void Start () 
 	{
 		rb = GetComponent<Rigidbody> ();
+		lugarInicio = rb.position;
 	}
 	
 	// Update is called once per frame
@@ -31,7 +34,7 @@ public class disparo : MonoBehaviour {
 
 		if (Input.GetKey(accion) && condicion == true) 
 		{
-			
+			AudioSource.PlayClipAtPoint (clank, lugarInicio);
 
 			rb.AddForce (transform.forward * (fuerza * rb.mass));
 			condicion = false;

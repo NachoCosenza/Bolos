@@ -23,9 +23,14 @@ public class pino : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (rb.velocity != Vector3.zero) 
+		if (rb.angularVelocity != Vector3.zero) 
 		{
-			//Instantiate (inter, posi.position);
-		}		
+			inter.GetComponent<MeshRenderer> ().material.color = Color.green;
+		}
+
+		if (Input.GetKey (retry))
+		{
+			inter.GetComponent<MeshRenderer> ().material.color = Color.blue;
+		}
 	}
 }
